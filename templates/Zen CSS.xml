@@ -1,0 +1,54 @@
+<templateSet group="Zen CSS">
+  <template name="oc:i" value="outline-color:invert;" description="outline-color:invert;" toReformat="true" toShortenFQNames="true" />
+  <template name="tal" value="text-align-last:$VAR0$;" description="text-align-last:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="bdl:a" value="border-length:auto;" description="border-length:auto;" toReformat="true" toShortenFQNames="true" />
+  <template name="rz" value="resize:$VAR0$;" description="resize:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="bgz:cv" value="background-size:cover;" description="background-size:cover;" toReformat="true" toShortenFQNames="true" />
+  <template name="bgz:ct" value="background-size:contain;" description="background-size:contain;" toReformat="true" toShortenFQNames="true" />
+  <template name="cn" value="content:$VAR0$;" description="content:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="rz:v" value="resize:vertical;" description="resize:vertical;" toReformat="true" toShortenFQNames="true" />
+  <template name="rz:n" value="resize:none;" description="resize:none;" toReformat="true" toShortenFQNames="true" />
+  <template name="rz:h" value="resize:horizontal;" description="resize:horizontal;" toReformat="true" toShortenFQNames="true" />
+  <template name="rz:b" value="resize:both;" description="resize:both;" toReformat="true" toShortenFQNames="true" />
+  <template name="wob:bs" value="word-break:break-strict;" description="word-break:break-strict;" toReformat="true" toShortenFQNames="true" />
+  <template name="p:4" value="padding:0 0 0 0;" description="padding:0 0 0 0;" toReformat="true" toShortenFQNames="true" />
+  <template name="bgz:a" value="background-size:auto;" description="background-size:auto;" toReformat="true" toShortenFQNames="true" />
+  <template name="p:0" value="padding:0;" description="padding:0;" toReformat="true" toShortenFQNames="true" />
+  <template name="p:3" value="padding:0 0 0;" description="padding:0 0 0;" toReformat="true" toShortenFQNames="true" />
+  <template name="p:2" value="padding:0 0;" description="padding:0 0;" toReformat="true" toShortenFQNames="true" />
+  <template name="wob:l" value="word-break:loose;" description="word-break:loose;" toReformat="true" toShortenFQNames="true" />
+  <template name="oo" value="outline-offset:$VAR0$;" description="outline-offset:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="oc" value="outline-color:$VAR0$;" description="outline-color:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="o" value="outline:$VAR0$;" description="outline:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="ow" value="outline-width:$VAR0$;" description="outline-width:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="bgz" value="background-size:$VAR0$;" description="background-size:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="os" value="outline-style:$VAR0$;" description="outline-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="bdrz" value="border-radius:$VAR0$;" description="border-radius:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="o:n" value="outline:none;" description="outline:none;" toReformat="true" toShortenFQNames="true" />
+  <template name="bdi:m" value="-moz-border-image:url($VAR0$) 0 0 0 0 stretch stretch;" description="-moz-border-image:url(...) 0 0 0 0 stretch stretch;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="bdi:w" value="-webkit-border-image:url($VAR0$) 0 0 0 0 stretch stretch;" description="-webkit-border-image:url(...) 0 0 0 0 stretch stretch;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+</templateSet>

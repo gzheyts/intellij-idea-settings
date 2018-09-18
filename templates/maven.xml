@@ -1,0 +1,32 @@
+<templateSet group="maven">
+  <template name="lombok" value="&lt;dependency&gt;&#10;&#9;&#9;&lt;groupId&gt;org.projectlombok&lt;/groupId&gt;&#10;&#9;&#9;&lt;artifactId&gt;lombok&lt;/artifactId&gt;&#10;&#9;&#9;&lt;version&gt;LATEST&lt;/version&gt;&#10;&lt;/dependency&gt;&#10;" description="add lombok dependency" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="jsonpath" value="&lt;dependency&gt;&#10;    &lt;groupId&gt;com.jayway.jsonpath&lt;/groupId&gt;&#10;    &lt;artifactId&gt;json-path&lt;/artifactId&gt;&#10;    &lt;version&gt;LATEST&lt;/version&gt;&#10;&lt;/dependency&gt;&#10;" description="add jsonpath dependency" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mockito" value="&lt;dependency&gt;&#10;    &lt;groupId&gt;org.mockito&lt;/groupId&gt;&#10;    &lt;artifactId&gt;mockito-core&lt;/artifactId&gt;&#10;    &lt;version&gt;LATEST&lt;/version&gt;&#10;&lt;/dependency&gt;&#10;" description="add mockito dependency" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="sb-devtools" value=" &lt;dependency&gt;&#10;&#9;&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;&#10;&#9;&lt;artifactId&gt;spring-boot-devtools&lt;/artifactId&gt;&#10;&lt;/dependency&gt;&#10;" description="add springboot-devtools package" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="junit" value="&lt;dependency&gt;&#10;    &lt;groupId&gt;junit&lt;/groupId&gt;&#10;    &lt;artifactId&gt;junit&lt;/artifactId&gt;&#10;    &lt;version&gt;3.8.1&lt;/version&gt;&#10;    &lt;scope&gt;test&lt;/scope&gt;&#10;&lt;/dependency&gt;&#10;" description="add junit package" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="slf4j-logback" value="&lt;dependency&gt; &#10;  &lt;groupId&gt;ch.qos.logback&lt;/groupId&gt;&#10;  &lt;artifactId&gt;logback-classic&lt;/artifactId&gt;&#10;  &lt;version&gt;1.0.13&lt;/version&gt;&#10;&lt;/dependency&gt;&#10;" description="add slf4j-logback dependency" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+</templateSet>

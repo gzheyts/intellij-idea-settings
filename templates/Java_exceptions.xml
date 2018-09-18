@@ -1,0 +1,39 @@
+<templateSet group="Java.exceptions">
+  <template name="thr" value="throw new $ND$" description="throw new exception" toReformat="false" toShortenFQNames="true">
+    <variable name="ND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;&#9;$body$&#10;} catch($exception$ $name$){&#10;&#9;$expression$;&#10;}&#10;" description="try/catch" toReformat="false" toShortenFQNames="true">
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tryf" value="try {&#10;&#9;$body$&#10;} catch($exception$ $name$){&#10;&#9;$expression$;&#10;}finally{&#10;    $END$&#10;}&#10;" description="try/catch/finally" toReformat="false" toShortenFQNames="true">
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ths" value="throws $ND$" description="throws" toReformat="false" toShortenFQNames="true">
+    <variable name="ND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ca" value="catch($exception$ $var$) {&#10;    $END$&#10;}" description="catch clause" toReformat="false" toShortenFQNames="true">
+    <variable name="exception" expression="" defaultValue="&quot;Exception&quot;" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="&quot;e&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

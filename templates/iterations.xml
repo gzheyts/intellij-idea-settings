@@ -1,0 +1,14 @@
+<templateSet group="iterations">
+  <template name="ital" value="int $SIZEVAR$ = $ARRAYLIST$.size();&#10;for(int $INDEX$ = 0; $INDEX$ &lt; $SIZEVAR$; $INDEX$++) {&#10;  $ELEMENT_TYPE$ $ELEMENT_VAR$ = $CAST$ $ARRAYLIST$.get($INDEX$);&#10;  $END$&#10;}" description="Iterate elements of java.util.ArrayList" toReformat="true" toShortenFQNames="true">
+    <variable name="SIZEVAR" expression="" defaultValue="&quot;numElements&quot;" alwaysStopAt="true" />
+    <variable name="INDEX" expression="suggestIndexName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARRAYLIST" expression="variableOfType(&quot;java.util.ArrayList&quot;)" defaultValue="&quot;elements&quot;" alwaysStopAt="true" />
+    <variable name="ELEMENT_TYPE" expression="guessElementType(ARRAYLIST)" defaultValue="&quot;Object&quot;" alwaysStopAt="true" />
+    <variable name="ELEMENT_VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAST" expression="castToLeftSideType()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

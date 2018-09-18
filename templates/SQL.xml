@@ -1,0 +1,7 @@
+<templateSet group="SQL">
+  <template name="sel" value="select * from $table$ $end$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="table" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

@@ -1,0 +1,13 @@
+BashSupport
+GrepConsole
+IdeaVIM
+Lombook Plugin
+com.jasonnz.bootstrap
+com.jetbrains.lang.ejs
+com.jinsihou.react.snippets
+com.przemyslawj.mockito.generator
+de.endrullis.idea.postfixtemplates
+net.seesharpsoft.intellij.plugins.csv
+nl.jworks.intellij.bootstrap3
+org.asciidoctor.intellij.asciidoc
+org.mapstruct.intellij

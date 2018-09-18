@@ -1,0 +1,17 @@
+<templateSet group="Java.constants">
+  <template name="co" value="public static final $type$ $name$  = $value$;$END$" description="public static final TYPE name  = value;" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="capitalize(name)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cos" value="public static final String $name$ = &quot;$value$&quot;;" description="public static final String $name$ = &quot;$value$&quot;;" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="capitalize(name)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

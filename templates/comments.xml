@@ -1,0 +1,32 @@
+<templateSet group="comments">
+  <template name="code" value="{@code $CODE$}$END$" description="Insert {@code ...}" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="link" value="{@link $LINK$}" description="Insert {@link ...}" toReformat="false" toShortenFQNames="true">
+    <variable name="LINK" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="linkm" value="{@link #$LINK$}" description="Insert {@link #...}" toReformat="false" toShortenFQNames="true">
+    <variable name="LINK" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="seel" value="@see &lt;a href=&quot;$LINK$&quot;&gt;$DESC$&lt;/a&gt;" description="See also (weblink)" toReformat="false" toShortenFQNames="true">
+    <variable name="LINK" expression="" defaultValue="&quot;http://&quot;" alwaysStopAt="true" />
+    <variable name="DESC" expression="" defaultValue="Description" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="/*" value="/*&#10; * $END$&#10; */" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

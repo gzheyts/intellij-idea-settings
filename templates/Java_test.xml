@@ -1,0 +1,94 @@
+<templateSet group="Java.test">
+  <template name="t" value="public void test$name$(){&#10;    $END$&#10;}" description="test method" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;Method&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tt" value="public void test$name$() throw $exception${&#10;    $END$&#10;}" description="test method throwing exception" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;Method&quot;" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="test" value="@org.junit.Test&#10;public void test$name$() throws Exception{&#10;    $END$&#10;}" description="@Test method" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;Method&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="as" value="assert $test$ : &quot;$failure_message$&quot;;" description="assert" toReformat="false" toShortenFQNames="true">
+    <variable name="test" expression="" defaultValue="&quot;test&quot;" alwaysStopAt="true" />
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ae" value="org.junit.Assert.assertEquals(&quot;$failure_message$&quot;, $expecteds$, $actuals$);" description="assertEquals" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <variable name="expecteds" expression="" defaultValue="&quot;expecteds&quot;" alwaysStopAt="true" />
+    <variable name="actuals" expression="" defaultValue="&quot;actuals&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="aae" value="org.junit.Assert.assertArrayEquals(&quot;$failure_message$&quot;, $expecteds$, $actuals$);" description="assertArrayEquals" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <variable name="expecteds" expression="" defaultValue="&quot;expecteds&quot;" alwaysStopAt="true" />
+    <variable name="actuals" expression="" defaultValue="&quot;actuals&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="af" value="org.junit.Assert.assertFalse(&quot;$failure_message$&quot;, $condition$);" description="assertFalse" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <variable name="condition" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="at" value="org.junit.Assert.assertTrue(&quot;$failure_message$&quot;, $condition$);" description="assertTrue" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <variable name="condition" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="an" value="org.junit.Assert.assertNull(&quot;$failure_message$&quot;, $object$);" description="assertNull" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <variable name="object" expression="" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ann" value="org.junit.Arrays.assertNotNull(&quot;$failure_message$&quot;, $object$);" description="assertNotNull" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <variable name="object" expression="" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ass" value="org.junit.Arrays.assertSame(&quot;$failure_message$&quot;, $expected$, $actual$);" description="assertSame" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <variable name="expected" expression="" defaultValue="&quot;expected&quot;" alwaysStopAt="true" />
+    <variable name="actual" expression="" defaultValue="&quot;actual&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="asns" value="org.junit.Assert.assertNotSame(&quot;$failure_message$&quot;, $expected$, $actual$);" description="assertNotSame" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <variable name="expected" expression="" defaultValue="&quot;expected&quot;" alwaysStopAt="true" />
+    <variable name="actual" expression="" defaultValue="&quot;actual&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fa" value="org.junit.Assert.fail(&quot;$failure_message$&quot;);" description="fail" toReformat="false" toShortenFQNames="true">
+    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,95 @@
+<templateSet group="Java">
+  <template name="ext" value="extends $END$" description="extends" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imp" value="implements $END$" description="implements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="im" value="import $END$" description="import" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="m" value="$modifier$ $type$ $name$($parameters$){&#10;    $body$&#10;}$END$" description="java method" toReformat="false" toShortenFQNames="true">
+    <variable name="modifier" expression="enum(&quot;public&quot;, &quot;&quot;, &quot;protected&quot;, &quot;private&quot;)" defaultValue="&quot;private&quot;" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;method_name&quot;" alwaysStopAt="true" />
+    <variable name="parameters" expression="" defaultValue="&quot;parameters&quot;" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="&quot;body&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="this.$field$ = $field$;$END$" description="constructor call or setter body" toReformat="false" toShortenFQNames="true">
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mt" value="$modifier$ $type$ $name$($parameters$) throws $exception${&#10;    $body$&#10;}$END$" description="java method throws" toReformat="false" toShortenFQNames="true">
+    <variable name="modifier" expression="enum(&quot;public&quot;, &quot;&quot;, &quot;protected&quot;, &quot;private&quot;)" defaultValue="&quot;private&quot;" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;method_name&quot;" alwaysStopAt="true" />
+    <variable name="parameters" expression="" defaultValue="&quot;parameters&quot;" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="&quot;body&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sleep" value="try {&#10;&#9;Thread.sleep($time$);&#10;} catch (InterruptedException e){&#10;&#9;e.printStackTrace();&#10;}&#10;" description="sleep thread code" toReformat="false" toShortenFQNames="true">
+    <variable name="time" expression="" defaultValue="3000" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="aal" value="java.util.Arrays.asList($var$)$end$" description="Arrays.asList()" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ats" value="java.util.Arrays.toString($var$)$end$" description="Arrays.toString()" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="aso" value="java.util.Arrays.sort($var$)$end$" description="Arrays.sort()" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ast" value="java.util.Arrays.stream($var$)$end$" description="Arrays.stream()" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="csort" value="java.util.Collections.sort($var$);" description="Collections.sort()" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cswap" value="java.util.Collections.swap($var$);" description="Collection.swap()" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ps" value="public static " description="public static" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

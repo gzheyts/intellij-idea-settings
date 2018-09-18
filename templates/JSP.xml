@@ -1,0 +1,14 @@
+<templateSet group="JSP">
+  <template name="s" value="&lt;js:script src=&quot;$path$&quot;/&gt;$end$" description="&lt;js:script/&gt; tag" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="E" value="${$SELECTION$}" description="surround with ${}" toReformat="true" toShortenFQNames="false">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+  </template>
+  <template name="set" value="&lt;c:set var=&quot;$varname$&quot; value=&quot;$value$&quot;/&gt;&#10;$end$" description="&lt;c:set /&gt; jsp directive" toReformat="false" toShortenFQNames="true">
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
