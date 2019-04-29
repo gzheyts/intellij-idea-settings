@@ -8,6 +8,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 
 import static org.springframework.security.config.http.SessionCreationPolicy.STATELESS;
 
+#parse("File Header.java")
+
 @Configuration
 @EnableWebSecurity
 @EnableOAuth2Resource

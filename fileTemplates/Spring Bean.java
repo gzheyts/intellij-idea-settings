@@ -2,6 +2,8 @@
 
 import org.springframework.stereotype.Component;
 
+#parse("File Header.java")
+
 @Component
 public class ${NAME} {
 

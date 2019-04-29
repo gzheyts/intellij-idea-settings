@@ -2,6 +2,8 @@
 
 import org.springframework.stereotype.Controller;
 
+#parse("File Header.java")
+
 @Controller
 public class ${NAME} {
 

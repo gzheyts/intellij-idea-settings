@@ -15,6 +15,8 @@ import org.springframework.data.mongodb.core.mapping.MongoMappingContext;
 
 import java.net.UnknownHostException;
 
+#parse("File Header.java")
+
 @Configuration
 public class $NAME {
 
