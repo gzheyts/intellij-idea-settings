@@ -5,6 +5,8 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.ws.rs.ApplicationPath;
 
+#parse("File Header.java")
+
 @Configuration
 @ApplicationPath("$Endpoints_root_path")
 public class $NAME extends ResourceConfig {

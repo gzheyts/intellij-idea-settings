@@ -2,6 +2,8 @@
 
 import org.springframework.stereotype.Service;
 
+#parse("File Header.java")
+
 @Service
 public class ${NAME} {
 

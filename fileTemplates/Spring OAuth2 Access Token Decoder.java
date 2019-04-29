@@ -11,6 +11,8 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
 
+#parse("File Header.java")
+
 @Component
 public class $NAME {
 

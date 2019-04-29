@@ -11,6 +11,8 @@ import static java.lang.annotation.ElementType.PARAMETER;
 import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
+#parse("File Header.java")
+
 @Documented
 #if ($Validator_class != "")
 @Constraint(validatedBy = ${Validator_class}.class)

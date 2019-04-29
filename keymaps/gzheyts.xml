@@ -77,10 +77,6 @@
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt back_quote" />
   </action>
-  <action id="Compile">
-    <keyboard-shortcut first-keystroke="shift ctrl f9" />
-    <keyboard-shortcut first-keystroke="alt r" />
-  </action>
   <action id="Console.TableResult.SetDefault" />
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
@@ -146,14 +142,6 @@
   </action>
   <action id="EditorTabsGroup">
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
-  </action>
-  <action id="EditorTextEnd">
-    <keyboard-shortcut first-keystroke="ctrl end" />
-    <keyboard-shortcut first-keystroke="shift alt g" />
-  </action>
-  <action id="EditorTextStart">
-    <keyboard-shortcut first-keystroke="ctrl home" />
-    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -351,7 +339,7 @@
     <keyboard-shortcut first-keystroke="alt z" />
   </action>
   <action id="RunGc">
-    <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="shift alt g" />
   </action>
   <action id="RunInspection" />
   <action id="RunMenu">
@@ -483,6 +471,7 @@
   <action id="context.load">
     <keyboard-shortcut first-keystroke="shift ctrl alt space" />
   </action>
+  <action id="hg4idea.QGotoFromPatches" />
   <action id="hg4idea.pull">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>

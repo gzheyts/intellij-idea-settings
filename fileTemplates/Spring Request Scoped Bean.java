@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 
 import static org.springframework.context.annotation.ScopedProxyMode.TARGET_CLASS;
 
+#parse("File Header.java")
+
 @Component
 @Scope(value = "request", proxyMode = TARGET_CLASS)
 public class $NAME {

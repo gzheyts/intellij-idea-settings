@@ -4,6 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import static org.springframework.boot.SpringApplication.run;
 
+#parse("File Header.java")
+
 @SpringBootApplication
 public class ${NAME} {
 
