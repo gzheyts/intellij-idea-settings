@@ -1,0 +1,8 @@
+<templateSet group="Jackson">
+  <template name="jp" value="@com.fasterxml.jackson.annotation.JsonProperty(&quot;$name$&quot;)$END$" description="@JsonProperty" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

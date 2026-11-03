@@ -1,31 +1,11 @@
 <templateSet group="Java.test">
-  <template name="t" value="public void test$name$(){&#10;    $END$&#10;}" description="test method" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="@org.junit.jupiter.api.Test&#10;public void test$name$(){&#10;    // given&#10;    $END$&#10;            &#10;    // when&#10;    &#10;    // then&#10;    &#10;}" description="@Test method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="&quot;Method&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="tt" value="public void test$name$() throw $exception${&#10;    $END$&#10;}" description="test method throwing exception" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="&quot;Method&quot;" alwaysStopAt="true" />
-    <variable name="exception" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="test" value="@org.junit.Test&#10;public void test$name$() throws Exception{&#10;    $END$&#10;}" description="@Test method" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="&quot;Method&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="as" value="assert $test$ : &quot;$failure_message$&quot;;" description="assert" toReformat="false" toShortenFQNames="true">
-    <variable name="test" expression="" defaultValue="&quot;test&quot;" alwaysStopAt="true" />
-    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="ae" value="org.junit.Assert.assertEquals(&quot;$failure_message$&quot;, $expecteds$, $actuals$);" description="assertEquals" toReformat="false" toShortenFQNames="true">
+  <template name="ae" value="org.junit.jupiter.api.Assertions.assertEquals(&quot;$failure_message$&quot;, $expecteds$, $actuals$);" description="assertEquals" toReformat="false" toShortenFQNames="true">
     <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
     <variable name="expecteds" expression="" defaultValue="&quot;expecteds&quot;" alwaysStopAt="true" />
     <variable name="actuals" expression="" defaultValue="&quot;actuals&quot;" alwaysStopAt="true" />
@@ -41,28 +21,20 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="af" value="org.junit.Assert.assertFalse(&quot;$failure_message$&quot;, $condition$);" description="assertFalse" toReformat="false" toShortenFQNames="true">
-    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
-    <variable name="condition" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+  <template name="atrue" value="org.junit.jupiter.api.Assertions.assertTrue($condition$);" description="assertTrue" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="at" value="org.junit.Assert.assertTrue(&quot;$failure_message$&quot;, $condition$);" description="assertTrue" toReformat="false" toShortenFQNames="true">
-    <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
-    <variable name="condition" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="an" value="org.junit.Assert.assertNull(&quot;$failure_message$&quot;, $object$);" description="assertNull" toReformat="false" toShortenFQNames="true">
+  <template name="an" value="org.junit.jupiter.Assertions.apiassertNull(&quot;$failure_message$&quot;, $object$);" description="assertNull" toReformat="false" toShortenFQNames="true">
     <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
     <variable name="object" expression="" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="ann" value="org.junit.Arrays.assertNotNull(&quot;$failure_message$&quot;, $object$);" description="assertNotNull" toReformat="false" toShortenFQNames="true">
+  <template name="ann" value="org.junit.jupiter.api.Assertions.assertNotNull(&quot;$failure_message$&quot;, $object$);" description="assertNotNull" toReformat="false" toShortenFQNames="true">
     <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
     <variable name="object" expression="" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
     <context>
@@ -85,8 +57,26 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="fa" value="org.junit.Assert.fail(&quot;$failure_message$&quot;);" description="fail" toReformat="false" toShortenFQNames="true">
+  <template name="fa" value="org.assertj.core.api.Assertions.fail(&quot;$failure_message$&quot;);" description="fail" toReformat="false" toShortenFQNames="true" useStaticImport="true">
     <variable name="failure_message" expression="" defaultValue="&quot;failure_message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="at" value="org.assertj.core.api.Assertions.assertThat($actual$)&#10;        $END$" description="assertThat" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="afalse" value="org.junit.jupiter.api.Assertions.assertFalse($condition$);" description="assertFalse" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="attb" value="org.assertj.core.api.Assertions.assertThatThrownBy(() -&gt; $actual$)&#10;        $END$" description="assertThat" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>

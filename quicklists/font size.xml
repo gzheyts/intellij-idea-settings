@@ -1,0 +1,5 @@
+<list display="font size" description="change font size">
+  <action id="EditorDecreaseFontSize" />
+  <action id="EditorIncreaseFontSize" />
+  <action id="EditorResetFontSize" />
+</list>

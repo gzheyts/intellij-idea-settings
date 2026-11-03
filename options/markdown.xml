@@ -1,0 +1,8 @@
+<application>
+  <component name="MarkdownApplicationSettings">
+    <MarkdownCssSettings />
+  </component>
+  <component name="MarkdownSettings">
+    <option name="fontSize" value="24" />
+  </component>
+</application>

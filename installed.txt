@@ -1,13 +1,31 @@
-BashSupport
-GrepConsole
-IdeaVIM
-Lombook Plugin
-com.jasonnz.bootstrap
-com.jetbrains.lang.ejs
-com.jinsihou.react.snippets
-com.przemyslawj.mockito.generator
-de.endrullis.idea.postfixtemplates
-net.seesharpsoft.intellij.plugins.csv
-nl.jworks.intellij.bootstrap3
+com.ld.gitlab
+PerforceDirectPlugin
+com.intellij.wiremock
+com.github.qczone.switch2vscode
+eu.theblob42.idea.whichkey
+intellij.jupyter
+CMD Support
+hg4idea
+Key Promoter X
+org.jetbrains.junie
+de.oraios.serena
+com.intellij.spring.debugger
+com.haulmont.jpab
 org.asciidoctor.intellij.asciidoc
+com.joshestein.ideavim-quickscope
+org.jetbrains.IdeaVim-EasyMotion
+com.magidc.ideavim.anyObject
+Batch Scripts Support
+com.julienphalip.ideavim.functiontextobj
+com.intellij.notebooks.core
+com.intellij.bigdatatools.kafka
+com.github.deeepamin.gitlabciaid
+com.intellij.jdbi
+marcglasberg.HibernateInspectionsPlugin
+com.github.qczone.switch2cursor
+com.dmarcotte.handlebars
+com.github.xepozz.gitattributes
+Subversion
 org.mapstruct.intellij
+AceJump
+IdeaVIM

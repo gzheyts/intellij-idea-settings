@@ -92,4 +92,26 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="ifinst" value="if ($EXPR$ instanceof $TYPE$) {&#10;  $TYPE$ $VAR$ = ($TYPE$)$EXPR$;&#10;  $END$&#10;}" description="Checks object type with instanceof and down-casts it" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;Object&quot;)" defaultValue="expr" alwaysStopAt="true" />
+    <variable name="TYPE" expression="subtypes(typeOfVariable(EXPR))" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="main" value="public static void main(final String[] args){&#10;  $END$&#10;}" description="main() method declaration" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ifnn" value="if ($VAR$ != null) {&#10;$END$&#10;}" description="Inserts 'if not null' statement" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="suggestFirstVariableName(&quot;Object&quot;)" defaultValue="var" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tni" value="throw new org.apache.commons.lang3.NotImplementedException(&quot;Not implemented yet&quot;);$END$" description="throw new NotImplementedException" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>

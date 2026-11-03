@@ -1,1 +1,9 @@
-options/
+# keep machine-local out if re-added later
+options/jdk.table.xml
+options/trusted-paths.xml
+options/window.state.xml
+options/sshConfigs.xml
+options/sshRecentConnections*.xml
+options/remote-servers.xml
+options/path.macros.xml
+options/proxy.settings.xml

@@ -1,0 +1,111 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="ChangesView.Rename">
+        <abbreviation name="ecl" />
+      </action>
+      <action id="context.save">
+        <abbreviation name="sctx" />
+      </action>
+      <action id="ShowDiscoveredTests">
+        <abbreviation name="sat" />
+      </action>
+      <action id="Maven.ReimportProject">
+        <abbreviation name="rp" />
+      </action>
+      <action id="ActivateHierarchyToolWindow">
+        <abbreviation name="hierarchy" />
+      </action>
+      <action id="GotoTest">
+        <abbreviation name="gtt" />
+      </action>
+      <action id="ShowLiveRunConfigurations">
+        <abbreviation name="srl" />
+      </action>
+      <action id="ChangesView.RemoveChangeList">
+        <abbreviation name="dcl" />
+      </action>
+      <action id="tasks.goto">
+        <abbreviation name="ot" />
+      </action>
+      <action id="Kotlin.StopScratch">
+        <abbreviation name="sse" />
+      </action>
+      <action id="TypeHierarchy.Class">
+        <abbreviation name="hierarchy_class" />
+      </action>
+      <action id="$ShowTranslationDialogAction" />
+      <action id="tasks.switch">
+        <abbreviation name="st" />
+      </action>
+      <action id="TypeHierarchy.Supertypes">
+        <abbreviation name="hierarchy_supertypes" />
+      </action>
+      <action id="TypeHierarchy.Subtypes">
+        <abbreviation name="hierarchy_subtypes" />
+      </action>
+      <action id="RerunFailedTests">
+        <abbreviation name="rrft" />
+      </action>
+      <action id="context.load">
+        <abbreviation name="lctx" />
+      </action>
+      <action id="ProjectView.ShowScratchesAndConsoles">
+        <abbreviation name="ssc" />
+      </action>
+      <action id="ChangesView.NewChangeList">
+        <abbreviation name="ncl" />
+      </action>
+      <action id="CallHierarchy.BaseOnThisType">
+        <abbreviation name="base_on_this_method" />
+      </action>
+      <action id="RerunTests">
+        <abbreviation name="rrt" />
+      </action>
+      <action id="StoreDefaultLayout">
+        <abbreviation name="store_curr_layout_as_default" />
+      </action>
+      <action id="tasks.create.changelist">
+        <abbreviation name="cc" />
+      </action>
+      <action id="tasks.edit">
+        <abbreviation name="et" />
+      </action>
+      <action id="NewScratchBuffer">
+        <abbreviation name="nsb" />
+      </action>
+      <action id="TypeHierarchy.BaseOnThisType">
+        <abbreviation name="base_on_this_type" />
+      </action>
+      <action id="CollapseSelection">
+        <abbreviation name="unmapped" />
+      </action>
+      <action id="Scratch.ShowFilesPopup" />
+      <action id="ShowRecentTests">
+        <abbreviation name="rect" />
+      </action>
+      <action id="Maven.Reimport">
+        <abbreviation name="ramp" />
+      </action>
+      <action id="Scratch.ExportToScratch">
+        <abbreviation name="esf" />
+      </action>
+      <action id="TypeHierarchyBase.BaseOnThisType" />
+      <action id="ChangesView.Move">
+        <abbreviation name="mac" />
+      </action>
+      <action id="NewScratchFile">
+        <abbreviation name="nsf" />
+      </action>
+      <action id="tasks.close">
+        <abbreviation name="cat" />
+      </action>
+      <action id="ChangesView.SetDefault">
+        <abbreviation name="sac" />
+      </action>
+      <action id="Kotlin.RunScratch">
+        <abbreviation name="rsf" />
+      </action>
+    </abbreviations>
+  </component>
+</application>

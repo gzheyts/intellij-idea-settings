@@ -1,0 +1,16 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java">
+        <added pattern="org.springframework.util.Assert.isTrue(expression,message)" />
+      </blacklist>
+      <blacklist language="PHP">
+        <removed pattern="" />
+      </blacklist>
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+    <option id="sql.show.column.names.in.select" value="true" />
+  </component>
+</application>

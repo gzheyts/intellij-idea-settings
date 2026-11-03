@@ -1,0 +1,15 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="SecurityAnalysis.canShowProblemTab" value="false" />
+        <entry key="confirm.rerun.with.termination" value="false" />
+        <entry key="gateway.wsl.open.projects.natively" value="true" />
+        <entry key="git.non.modal.commit" value="true" />
+        <entry key="gradle.download.sources" value="true" />
+        <entry key="open.devcontainer.projects.natively" value="true" />
+        <entry key="show.diff.as.editor.tab" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

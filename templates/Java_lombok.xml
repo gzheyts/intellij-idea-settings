@@ -1,0 +1,72 @@
+<templateSet group="Java.lombok">
+  <template name="$ld" value="@lombok.Data" description="@lombok.Data" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$laac" value="@lombok.AllArgsConstructor" description="@lombok.AllArgsConstructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lb" value="@lombok.Builder" description="@lombok.Builder" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lnac" value="@lombok.NoArgsConstructor" description="@lombok.NoArgsConstructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lg" value="@lombok.Getter" description="@lombok.Getter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lgen" value="@lombok.Generated" description="@lombok.Generated" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lts" value="@lombok.ToString" description="@lombok.ToString" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lv" value="@lombok.Value" description="@lombok.Value" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$ls" value="@lombok.Setter" description="@lombok.Setter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lsync" value="@lombok.Synchronized" description="@lombok.Synchronized" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lrac" value="@lombok.RequiredArgsConstructor" description="@lombok.RequiredArgsConstructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lnn" value="@lombok.NonNull" description="@lombok.NonNull" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$lslf" value="@lombok.extern.slf4j.Slf4j" description="@lombok.extern.slf4j.Slf4j" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="$leah" value="@lombok.EqualsAndHashCode" description="@lombok.EqualsAndHashCode" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
